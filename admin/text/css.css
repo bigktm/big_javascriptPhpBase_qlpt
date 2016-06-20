@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+*{ margin: 0; padding: 0 }
+#mainWap{ 
+    width: 950px; 
+    margin: 0 auto; 
+}
+#header{ 
+    background: green; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+}
+
+#left{ 
+     float: left; 
+     width:  200px; 
+     background: #f98000; 
+     padding: 10px; 
+     min-height: 450px; 
+}
+#right{ 
+    float: right; 
+    width: 700px; 
+    padding: 10px; 
+    background: #e4e4e4; 
+    min-height: 450px; 
+}
+.clr{clear: both;}
+#footer{ 
+    background: green; 
+    margin-top: 10px; 
+    padding: 10px; 
+}

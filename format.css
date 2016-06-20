@@ -1,0 +1,235 @@
+@CHARSET "UTF-8";
+#web{
+	margin:0px auto;
+	padding:0px;
+	width: 1337px;
+}
+	#banner{
+		background: transparent url(timages/baner.png) left;
+		width: 99.6%;
+		height: 50px;
+	}
+		#banner div.session{
+			width:250px;
+			padding-top: 15px;
+			float: right;
+		}
+		#banner div.form_log{
+			width:600px;
+			float: right;
+		}
+		#banner form{
+			margin:5px;
+			padding:8px;
+			width:544px;
+			float: right;
+		}
+		#banner div.menu{
+			margin:-7px;
+			padding:0px;
+			height:49px;
+			width:600px;
+			float: right;
+		}
+		#banner div.menu_s {
+			width: 365px;
+			height:49px;
+			float: right;
+			margin: -7px;
+			}
+		#banner div.login{
+			margin:8px;
+			padding:8px;
+			width:165px;
+			float: right;
+		}
+		#banner div.login_s{
+			margin:8px;
+			padding:5px;
+			width:90px;
+			float: right;
+		}
+	#content{
+		width: 100%;
+	}
+			#content_le{ 
+				float: left;
+				width: 39%;
+				height: 600px;
+				border: 2px solid #b8dc85;
+			}
+				#maps{
+						float: left;
+						width: 100%;
+						height: 496px;
+						border-bottom: 2px solid #b8dc85;
+					}
+					#mapf{ 
+						float: left;
+						width: 1024px;
+						height: 600px;
+						border: 2px solid #b8dc85;
+					}
+					#content_le_bot{
+						float: left;
+						width: 100%;
+						height: 100px;
+						border: 2px solid #b8dc85;
+					}
+						.combo{
+						  padding: 19px 46px;
+						  width: 82%;
+						  height: 61%;
+						  background-color: #f0f0f0;
+						}
+							#combo_se{
+								width: 142px;
+							}
+							.tri{
+								margin:8px;
+								width: 30%;
+								height: 30%;
+								 background-color: #dddddd;
+								}
+			#content_ri{ 
+					float: left;
+					width: 60%;
+					height: 600px;
+					border: 2px solid #b8dc85;
+			}
+				#content_ri_top{ 
+					float: left;
+					width: 70%;
+					height: 50px;
+					border: 1px solid #b8dc85;
+				}
+					#content_ri_top marquee{
+						margin: 0px;
+						padding-top: 16px;
+						width: 100%;
+						height: 32px;
+					}
+					#nav{
+						float: left;
+						margin:0px;
+						padding-top:16px;
+						width: 29.4%;
+						height: 34px;
+						border: 1px solid #b8dc85;
+					}
+				#content_ri_bot{ 
+					float: left;
+					width: 100%;
+					height:548px;
+				}
+					#cont_index {
+							width: 100%;
+							height:96%;
+						}
+						#cont_up {
+							width: 100%;
+							height:83%;
+						}
+					#dsanh{
+						width: 100%;
+						height: 9%;
+					}
+					#anh{
+						float: left;
+						width: 25%;
+						height: 29%;
+						padding-bottom: 3px;
+					}
+						#anh img{
+							width: 100%;
+							height: 86%;
+						}
+						#anh tenchua{
+							width: 100%;
+							height: 14%;
+							
+						}
+						
+						#loadImg{
+							background-color:#3cb642;
+							width: 100%;
+							height:4%;
+							color: red;
+							text-decoration: none;
+						}
+					#phantrang a:hover{
+						 color: red;
+						text-decoration: none;
+					}
+					#manaPlace h3 a:hover{
+						 color: blue;
+						text-decoration: none;
+					}
+
+			a{
+				color: black;
+				text-decoration: none;
+			}
+			a:hover{
+			 color: white;
+			}
+.xem
+{
+	text-align: center;
+	-webkit-appearance: push-button;
+	margin: 3px;
+}
+table
+{
+	border-collapse: collapse;
+}
+
+
+#tablept
+{
+	width: 573px; 
+	border:1px solid black;
+}
+#tablept td
+{
+	width: 500px; 
+	border:1px solid rgb(0, 138, 50);
+}
+
+
+
+.tips
+{ 
+	position:relative; /*this is the key*/ 
+	z-index:24; 
+	text-decoration:none; 
+	background-image: url(../../images/admin/info.png); 
+	background-repeat: no-repeat; 
+	display: block; 
+	height: 18px; 
+	text-decoration: none; 
+} 			
+.tips:hover 
+{
+	z-index:25; 
+	cursor: pointer; 
+	text-decoration: none;
+}
+
+.phogtro
+{ 
+	display: none; 
+} 
+.tips:hover .phogtro
+{ 
+	display: block; 
+	position:absolute; 
+	top: 29px; 
+	right: 81px;
+	width: 36em;
+	border:1px solid #f68c2e; 
+	color:#000; 
+	background-color: #F1F1F1; 
+	text-align: justify; 
+	padding: 3px; 
+}

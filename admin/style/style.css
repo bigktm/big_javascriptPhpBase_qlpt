@@ -1,0 +1,412 @@
+﻿@CHARSET "UTF-8";
+body
+{
+	margin:0px;
+	padding:0px;
+	background:#C4EDF4;
+}
+.clr
+{
+	clear:both;
+}
+a, a:link, a:visited, a:active {
+text-decoration: none;
+color: #235a81;
+cursor: pointer;
+outline: none;
+}
+#swapper-w
+{
+	width:1024px;
+	height:auto;
+	margin:auto;
+}
+
+#swapper
+{
+	width:1024px;
+	height:100%;
+	float:left;
+	background:#fff;
+	box-shadow:0px 0px 7px #ccc;
+}
+#header
+{
+	width:1024px;
+	height:155px;
+	float:left;
+	margin:auto;
+	background:#8793B1;
+	border-radius: 4px;
+}
+#loichao
+{
+	height: 20px;
+	background-color: yellowgreen;
+	width: 100%;
+}
+#loichaoadmin
+{
+	float: right;
+	padding: 0 30px 0 0;
+}
+
+#banner
+{
+	width:1024px;
+	height:120px;
+	float:left;
+	background:#cf0;
+}
+#menutop
+{
+	width:1024px;
+	height:35px;
+	float:left;
+	background:red;
+}
+
+#menu
+{
+	margin-top: 5px;
+}
+ul#menu li {
+	list-style-type: none; /* code này để bỏ các dấu chấm tròn*/
+	float: left; /* code này để menu dàn hàng ngang*/
+	margin-right: 10px; /* tạo lề cho các menu*/
+	padding: 0;
+}
+ul#menu li a {
+	text-decoration:none;
+	background-color:#900;
+	padding: 5px;
+	color:white;
+}
+#menu li a:hover
+{
+	background-color:#300;
+}
+#menu .menuchon a
+{
+	background-color:#300;
+}
+
+
+
+
+
+
+#main
+{
+	width:1024px;
+	min-height: 450px;
+	float:left;
+	margin:10px 0px;
+	background-color: rgb(233, 255, 218);
+}
+
+#menutrai
+{
+	width:190px;
+	height:35px;
+	padding-left: 0;
+	margin-left: 25px;
+}
+ul#menutrai li {
+	/*list-style-type: none;  code này để bỏ các dấu chấm tròn*/
+	margin-top: 10px; /* tạo lề cho các menu*/
+	padding: 0;
+}
+ul#menutrai li a{
+	background-color: #756615;
+	color: white;
+	padding: 0px 9px 0px 10px;
+}
+#menutrai .menuchon a
+{
+	background-color:#300;
+}
+
+#content
+{
+	width:820px;
+	min-height:235px;
+	float:right;
+	background:rgb(236, 232, 255);
+}
+#nd 
+{
+	margin: 10px;
+}
+
+#topnd 
+{
+	height:35px;
+	background:#147A00;
+	margin: 0px -10px 0px -10px;
+}
+#topndtrai
+{
+	padding: 7px;
+	color: khaki;
+}
+{
+	height:35px;
+	background:#147A00;
+}
+
+#ndtrai
+{
+	width: 685px;
+	float:left;
+}
+#ndtrai-l
+{
+	width: 340px;
+	float:left;
+}
+#ndtrai-r
+{
+	width: 340px;
+	float:right;
+}
+#ndphai
+{
+	width:310px;
+	float:right;
+}
+#topndphai a
+{
+	text-decoration: none;
+	background-color: #900;
+	padding: 5px;
+	color: white;
+}
+
+hr
+{
+	margin-top: 0;
+}
+.button
+{
+	text-align: center;
+	-webkit-appearance: push-button;
+	width: 160px;
+	margin: 0px 0px 3px 39px;
+	
+}
+.xem
+{
+	text-align: center;
+	-webkit-appearance: push-button;
+	margin: 3px;
+}
+.table
+{
+	background: transparent;
+	border: 1px solid #69c;
+	width: 1000px;
+}
+.table td 
+{
+	color: #669;
+	border-top: 1px solid #BFC9EE;
+	padding: 0 0 0 5px;
+}
+.table th 
+{
+	border-right: 1px solid #D10000;
+	background-color: rgb(216, 216, 255);
+}
+.tabled
+{
+	background: transparent;
+	border: 1px solid #69c;
+	width: 1000px;
+	float:left;
+	margin-right: 20px;
+}
+.tabled td 
+{
+	color: #DA008B;
+	border-top: 1px solid #BFC9EE;
+	padding: 0 5px 0 5px;
+}
+.tabled th 
+{
+	border-right: 1px solid #D10000;
+	background-color: rgb(186, 255, 197);
+}
+.tablet
+{
+	background: transparent;
+	border: 1px solid #69c;
+	width: 1000px;
+	float:left;
+	margin-right: 20px;
+}
+.tablet td 
+{
+	color: #669;
+	border-top: 1px solid #BFC9EE;
+	padding: 0 0 0 5px;
+}
+.tablet th 
+{
+	border-right: 1px solid #D10000;
+	background-color: rgb(186, 255, 197);
+}
+.tableds
+{
+	border: 1px solid #A0CAF3;
+}
+.tableds th
+{
+	color: #669;
+	border-top: 1px solid #BFC9EE;
+	padding:7px;
+	background-color: rgb(186, 255, 197);
+}
+.tableds td 
+{
+	color: #669;
+	border-top: 1px solid #BFC9EE;
+	padding:7px;
+}
+/*
+.tabletrangchu
+{
+	border: 1px solid #A0CAF3;
+	width: 600px;
+}
+.tabletrangchu th,td 
+{
+	color: #669;
+	border-top: 0px solid #BFC9EE;
+	padding:7px;
+	width: 40px;
+}*/
+
+.tablekv
+{
+	background: transparent;
+	border: 1px solid #69c;
+	width: 300px;
+}
+.tablekv td 
+{
+	color: #669;
+	border-top: 1px solid #BFC9EE;
+	padding: 0 0 0 5px;
+}
+.tablekv th 
+{
+	border-right: 1px solid #D10000;
+	background-color: rgb(186, 255, 197);
+}
+
+
+#fooder 
+{
+	width:1004px;
+	height:auto;
+	padding:10px;
+	background:black;
+	color:white;
+   	bottom:0;
+}
+
+
+table
+{
+	border-collapse: collapse;
+}
+
+
+#tablept
+{
+	width: 573px; 
+	border:1px solid black;
+}
+#tablept td
+{
+	width: 500px; 
+	border:1px solid rgb(0, 138, 50);
+}
+
+
+
+#tableptedit
+{
+	border:1px solid rgb(102, 97, 99);
+	margin: 6px;
+	float: left;	
+}
+
+#tableptedit td
+{
+	border:1px solid black;
+}
+#tableptedit th
+{
+	border:1px solid black;
+	background-color: rgb(186, 255, 197);
+}
+.themphong
+{
+	text-align: center;
+	-webkit-appearance: push-button;
+	margin: 6px;
+	width: 100px;
+	float: left;	
+}
+
+
+.tips
+{ 
+	position:relative; /*this is the key*/ 
+	z-index:24; 
+	text-decoration:none; 
+	background-image: url(../../images/admin/info.png); 
+	background-repeat: no-repeat; 
+	display: block; 
+	height: 18px; 
+	text-decoration: none; 
+} 
+.tips:hover 
+{
+	z-index:25; 
+	cursor: pointer; 
+	text-decoration: none;
+}
+
+.phogtro
+{ 
+	display: none; 
+} 
+.tips:hover div 
+{ 
+	display: block; 
+	position:absolute; 
+	top: 0; 
+	right: 60px;
+	width: 36em;
+	border:1px solid #f68c2e; 
+	color:#000; 
+	background-color: #f7d9be; 
+	text-align: justify; 
+	padding: 3px; 
+}
+
+#trangchutrai
+{
+	float: left;
+	width: 600px;
+	min-height: 300px;
+}
+#trangchuphai
+{
+	float: right;
+	width: 350px;
+	min-height: 300px;
+}
